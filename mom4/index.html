@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>makeover monday, week 13, 2020</title>
+  
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Open Sans';
+            font-weight: 600;
+        }
+
+        #vis { 
+          width: 100%;
+        }
+        
+        circle.male {
+            fill: #3978CE;
+        }
+        line.male {
+          stroke: #3978CE;
+          stroke-width: 2;
+        }
+        
+        circle.female {
+            fill: plum;
+        }
+        line.female {
+          stroke: plum;
+          stroke-width: 2;
+        }
+        circle.total {
+          fill: #65747A;
+        }
+        
+        text.male {
+          fill: #3978CE;
+        }
+        text.female {
+          fill: plum;
+        }
+        text.total {
+          fill: #65747A;
+        }
+      </style>
+
+</head>
+
+<body>
+  <h1>UK favoirte toppings for pizza </h1>
+  <p>Click on the buttons below to sort</p>
+  <div>
+    <button id="allButton">All</button>
+    <button id="maleButton">Male</button>
+    <button id="femaleButton">Female</button>
+  </div>
+  <div id='vis'></div>
+
+  <div id="note">
+    <div><span style="color:steelblue;font-weight:bold">Men</span> like spicy or meaty topping.</div>
+    <div>Instead, <span style="color:plum;font-weight:bold">women</span> prefer the vegetarian options.</div>
+  </div>
+  
+
+
+
+<script src="index.js">
+  
+</script>
+</body>
+</html>
