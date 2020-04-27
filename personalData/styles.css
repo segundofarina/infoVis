@@ -1,0 +1,51 @@
+.section {
+  margin: 48px 0;
+}
+h1 {
+  /* xl / semibold */
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 36px;
+/* identical to box height, or 150% */
+
+
+/* Black */
+
+color: #262E32;
+}
+
+p {
+  /* sm / regular */
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 24px;
+/* or 200% */
+color: #262E32;
+}
+
+.content {  
+   margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+}
+.svgText {
+  width: 100%;
+  margin: 24px 0;
+}
+.svgText > img {
+  width: 100%;
+}
+.content > * {
+
+  flex-grow: 1;
+  width: 100%;
+}
